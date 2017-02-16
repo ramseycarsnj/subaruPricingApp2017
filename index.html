@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Subaru Pricing - 2017</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/master.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" class="navLink">General</a></li>
+          <li><a href="#" class="navLink">Vehicle</a></li>
+          <li><a href="#" class="navLink">Accessories</a></li>
+          <li><a href="#" class="navLink">Packages</a></li>
+          <li><a href="#" class="specialLink">Reset</a></li>
+          <li><a href="#" class="specialLink">Copy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="builder">
+
+      <div id="workspace">
+        <!-- General Section -->
+        <div class="sectionStyle" id="generalSection">
+          <div class="inputSections">
+            <input type="text" name="customerName" placeholder="Name" id="customerName"><label for="customerName"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="vehiclePrice" placeholder="Vehicle Price" id="vehiclePrice"><label for="vehiclePrice"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="priceGoodUntil" placeholder="Price Good Until" id="priceGoodUntil"><label for="priceGoodUntil"></label>
+          </div>
+        </div>
+        <div class="sectionStyle" id="vehicleSection">
+          <!-- Vehicle Section -->
+          <div id="vehicleBuilder">
+            <!-- Vehicle Section Header -->
+            <div id="vehicleMenu">
+              <h2 id="vehicleMenuHeader">2017 Vehicles</h2>
+              <button type="button" name="reset"  id="reset"><img src="inc/refresh.svg" alt="reset button"></button>
+            </div>
+            <!-- Vehicle Select -->
+            <div id="vehicleSelection">
+
+            </div>
+          </div>
+          <div id="transSection">
+            <h2>Transmission</h2>
+            <input type="radio" name="transmission" value="automatic" id="automaticRadio" checked><label for="automaticRadio">Automatic</label>
+            <input type="radio" name="transmission" value="manual" id="manualRadio"><label for="manualRadio">Manual</label>
+          </div>
+        </div>
+
+        <div class="sectionStyle" id="accessoriesSection">
+          <div id="accessories">
+            <!-- Accessories go here -->
+          </div>
+        </div>
+
+        <div class="sectionStyle" id="packagesSection">
+          <div id="packages">
+            <!-- Packages go here -->
+          </div>
+        </div>
+      </div>
+
+    <!--    WORKSPACE / PREVIEW      -->
+
+      <div id="preview">
+
+      </div>
+
+    </div>
+  </body>
+</html>
