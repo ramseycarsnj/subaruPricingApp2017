@@ -242,11 +242,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/inc\/Crosstrek\/20iLimited\/ibp.png": {
+	"\/inc\/Crosstrek\/20iLimited\/hb.png": {
 		"ft": 32768,
 		"iS": 691395,
 		"oA": 0,
-		"oAP": "\/inc\/Crosstrek\/20iLimited\/ibp.png",
+		"oAP": "\/inc\/Crosstrek\/20iLimited\/hb.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -337,6 +337,14 @@
 		"oAP": "\/inc\/Crosstrek\/20iPremium\/vrp.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/inc\/fill.png": {
+		"ft": 32768,
+		"iS": 80558,
+		"oA": 0,
+		"oAP": "\/inc\/fill.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/inc\/Forester\/20XTPremium\/cbs.png": {
 		"ft": 32768,
@@ -719,6 +727,118 @@
 		"iS": 609156,
 		"oA": 0,
 		"oAP": "\/inc\/Impreza\/20i5door\/vrp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/cbs.png": {
+		"ft": 32768,
+		"iS": 558788,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/cbs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/cgm.png": {
+		"ft": 32768,
+		"iS": 519513,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/cgm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/cwp.png": {
+		"ft": 32768,
+		"iS": 493948,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/cwp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/ibp.png": {
+		"ft": 32768,
+		"iS": 697961,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/ibp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/ism.png": {
+		"ft": 32768,
+		"iS": 539930,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/ism.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/lbm.png": {
+		"ft": 32768,
+		"iS": 675154,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/lbm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimited5door\/vrp.png": {
+		"ft": 32768,
+		"iS": 581033,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimited5door\/vrp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/cbs.png": {
+		"ft": 32768,
+		"iS": 551329,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/cbs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/cgm.png": {
+		"ft": 32768,
+		"iS": 561284,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/cgm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/cwp.png": {
+		"ft": 32768,
+		"iS": 547914,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/cwp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/ibp.png": {
+		"ft": 32768,
+		"iS": 578420,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/ibp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/ism.png": {
+		"ft": 32768,
+		"iS": 673500,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/ism.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/lbm.png": {
+		"ft": 32768,
+		"iS": 567589,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/lbm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inc\/Impreza\/20iLimitedSedan\/vrp.png": {
+		"ft": 32768,
+		"iS": 568200,
+		"oA": 0,
+		"oAP": "\/inc\/Impreza\/20iLimitedSedan\/vrp.png",
 		"oF": 0,
 		"opt": 0
 		},

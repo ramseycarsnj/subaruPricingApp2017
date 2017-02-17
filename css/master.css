@@ -205,7 +205,14 @@ nav a:hover {
   height: 100vh;
   width: 50%;
   right: 0;
-  background-color: #fafafa;
+  background-color: #20609F;
   position: fixed;
   z-index: 1;
   border-left: 1px solid #dddddd; }
+
+#pricePreview {
+  background-color: #333333;
+  width: 650px;
+  margin: auto;
+  height: 400px;
+  padding: 20px 0 0 0; }
