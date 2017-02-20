@@ -1,6 +1,49 @@
 $(document).ready(function() {
-  const accessoriesArray = ['option1','option2','option3'];
-  const packagesArray = ['package1','package2','package3'];
+
+  const accessoriesArray = ['17 Inch Alloy Wheel',
+  'Body Side Molding',
+  'Door Edge Guards',
+  'Exterior Auto-Dimming Mirror with Approach Light',
+  'Auto-Dimming Mirror with Compass',
+  'Auto-Dimming mirror with Compass and HomeLink',
+  'Exterior Auto-Dimming Mirror with Approach Light',
+  'Exterior Auto-Dimming Mirror with Approach Light for Blind Spot Detection Mirrors',
+  'Rear Seatback Protector',
+  'All Weather Floor Mats',
+  'HID Headlights',
+  'Side Window Deflectors',
+  'Trailer Hitch',
+  'Paddleboard Carrier',
+  'Remote Engine Starter',
+  'Rockford Fosgate Premium Audio Upgrade',
+  'Footwell Illumination',
+  'STI Performance Exhaust',
+  'STI Carbon Fiber Trunk Trim',
+  'Rear Aero Splash Guards'];
+  const packagesArray = ['Alloy Wheel Package',
+  'Reverse Auto Brake',
+  'High Beam Assist',
+  'Navigation System',
+  'EyeSight Driver Assist',
+  'Blind-Spot Detection &amp; Rear Cross Traffic Alert',
+  'Moonroof Package',
+  'Power Rear Gate',
+  'Auto-Dimming Mirror with Compass and HomeLink',
+  'Steering Responsive Fog Lights',
+  'Harman Kardon Amplifier and Speakers',
+  'SUBARU STARLINK 8-Inch Multimedia Navigation',
+  'SUBARU STARLINK 7-Inch Multimedia Audio with Harman Kardon Amplifier and speakers',
+  'Keyless Access with Push-Button Start',
+  'WRX Sport Package with 17-Inch Alloy Wheels',
+  'WRX Sport Package with 18-Inch Alloy Wheels',
+  'Low Profile Trunk Spoiler',
+  'STI Performance Exhaust'];
+
+
+
+
+
+
 
       // List of brochure links
       const brochureArray = [
@@ -383,6 +426,8 @@ $(document).ready(function() {
             let selectedColor = this.dataset.image;
             document.querySelector('#imgPreview').innerHTML = `<img src="${selectedColor}" style="width: 325px;padding: 0;margin: 0;border: 0;">`
             document.querySelector('#vehiclePreview').innerHTML = selectedTrim;
+            document.querySelector('#vehicleRef1').innerHTML = selectedTrim;
+            document.querySelector('#vehicleRef2').innerHTML = selectedVehicle;
             document.querySelector('#brochureLink').href = this.dataset.brochure;
 
           });
@@ -396,21 +441,135 @@ $(document).ready(function() {
     $('#reset').click(function() {
       fullReset();
     });
+
+    const orCheck = function() {
+      if (document.getElementById('vehicleFinPrice').value !== '' && document.getElementById('leasePrice').value !== '') {
+        document.querySelector('#orDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">or</h4>`;
+      } else {
+        document.querySelector('#orDisplay').innerHTML = '';
+      }
+
+    }
+
     // Transmission selection radio buttons rewrite contents of transmission display h5
     $('.transmissionSelect').click(function(){
       document.querySelector('#transmissionDisplay').innerHTML = `<strong>Transmission:</strong> ${this.value}`;
     });
+    // Writes input vehicle finance price to template
+    $('#customerName').on('input',function(e){
+    document.querySelector('#customerNameDisplay').innerHTML = this.value;
+   });
+    // Writes input vehicle finance price to template
+    $('#vehicleFinPrice').on('input',function(e){
+      if (document.getElementById('vehicleFinPrice').value !== '') {
+        document.querySelector('#finPrice').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #ffffff;" id="">$${this.value}</h1>`;
+
+      } else {
+          document.querySelector('#finPrice').innerHTML = '';
+        }
+        orCheck();
+   });
+   // Writes input vehicle price expiration to template
+   $('#priceGoodUntil').on('input',function(e){
+   document.querySelector('#availableUntilDisplay').innerHTML = this.value;
+  });
+
+
+  // Writes input vehicle price expiration to template
+  $('#leasePrice').on('input',function(e){
+    if (document.getElementById('leasePrice').value !== '') {
+      document.querySelector('#leasePriceDisplay').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #ffffff;" id="">$${this.value}/mo</h1>`;
+
+    } else {
+        document.querySelector('#leasePriceDisplay').innerHTML = '';
+      }
+      orCheck();
+  });
+  // Writes input vehicle price expiration to template
+  $('#term').on('input',function(e){
+    if (document.getElementById('term').value !== '') {
+      document.querySelector('#termDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">for ${this.value} months</h4>`;
+    } else {
+        document.querySelector('#termDisplay').innerHTML = '';
+      }
+  });
+
+
+  // Writes input vehicle price expiration to template
+  $('#moneyDown').on('input',function(e){
+    if (document.getElementById('moneyDown').value !== '') {
+      document.querySelector('#moneyDownDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">$${this.value} down</h4>`;
+    } else {
+      document.querySelector('#moneyDownDisplay').innerHTML = '';
+    }
+  });
+  // Writes input vehicle price expiration to template
+  $('#mileage').on('input',function(e){
+    if (document.getElementById('mileage').value !== '') {
+      document.querySelector('#mileageDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 14px;">${this.value} miles per year</h4>`;
+    } else {
+        document.querySelector('#mileageDisplay').innerHTML = '';
+      }
+  });
+
 
 
   for (let i = 0; i < accessoriesArray.length; i++) {
     document.querySelector('#accessories').innerHTML +=
-    `<input type="checkbox" name="${accessoriesArray[i]}" value="" id="${accessoriesArray[i]}"><label for="${accessoriesArray[i]}">${accessoriesArray[i]}</label>`;
+    `<input type="checkbox" name="${accessoriesArray[i]}" class="accessoryOptionSelect" value="${accessoriesArray[i]}" id="${accessoriesArray[i].replace(/-|\&amp;|\&|\.|\s+/g, '')}"><label for="${accessoriesArray[i].replace(/-|\&amp;|\&|\.|\s+/g, '')}">${accessoriesArray[i]}</label>`;
   }
 
   for (let i = 0; i < packagesArray.length; i++) {
     document.querySelector('#packages').innerHTML +=
-    `<input type="checkbox" name="${packagesArray[i]}" value="" id="${packagesArray[i]}"><label for="${packagesArray[i]}">${packagesArray[i]}</label>`;
+    `<input type="checkbox" name="${packagesArray[i]}" class="packageOptionSelect" value="${packagesArray[i]}" id="${packagesArray[i].replace(/-|\&amp;|\&|\.|\s+/g, '')}">
+      <label for="${packagesArray[i].replace(/-|\&amp;|\&|\.|\s+/g, '')}" id="${packagesArray[i]}">${packagesArray[i]}</label>`;
   }
+
+  // Accessories display works via on click (adds and removes options)
+  $(function() {
+    $('.accessoryOptionSelect').click(function() {
+        let tempID = this.value.replace(/-|\&amp;|\&|\.|\s+/g, '');
+        if (this.checked === true) {
+          // Writes The Accessory Value of Checked item to Page
+          console.log(this.value);
+          $('#accessoriesDisplay').append(`<li id="accessory${tempID}" style="color: #ffffff;text-align:left;margin: 0 0 0 30px;">${this.value}</li>`);
+        } else {
+          // Removes Selected Accessory Item from page
+            $('#accessory' + tempID).remove();
+        }
+    });
+  });
+
+
+  $('.sectionStyle').hide();
+  $('#generalSection').show();
+
+  $('.navLink').click(function(e) {
+    e.preventDefault();
+    $('.sectionStyle').hide();
+    $('#' + this.dataset.section).show();
+  });
+  // Package display works via on click (adds and removes options)
+  $(function() {
+    $('.packageOptionSelect').click(function() {
+      $('#packagesFiller').html(``);
+        let tempID = this.value.replace(/-|\&amp;|\&|\.|\s+/g, '');
+        if (this.checked === true) {
+          // Writes The Accessory Value of Checked item to Page
+
+          console.log(tempID);
+          $('#packagesDisplay').append(`<span id="packagesDisplay${tempID}">${this.value}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`);
+        } else {
+          // Removes Selected Accessory Item from page
+            $('#packagesDisplay' + tempID).remove();
+        }
+    });
+  });
+  let templateContent = document.getElementById('pricePreview');
+  document.querySelector('#templateCopy').innerHTML(`
+    this is ${templateContent} just a test
+    `);
+
 
 
 
