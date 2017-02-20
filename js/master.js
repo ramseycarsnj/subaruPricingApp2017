@@ -175,7 +175,7 @@ $(document).ready(function() {
         [cwp,'Legacy ' + subaruLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iSport/cwp.png', brochureArray[1]],
         [ism,'Legacy ' + subaruLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iSport/ism.png', brochureArray[1]],
         [lbp,'Legacy ' + subaruLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iSport/lbp.png', brochureArray[1]],
-        [vrp,'Legacy ' + subaruLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iSport/tbm.png', brochureArray[1]]];
+        [vrp,'Legacy ' + subaruLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iSport/vrp.png', brochureArray[1]]];
       const Legacy25iLimited = [
         [cbs,'Legacy ' + subaruLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iLimited/cbs.png', brochureArray[1]],
         [cgm,'Legacy ' + subaruLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Legacy/25iLimited/cgm.png', brochureArray[1]],
