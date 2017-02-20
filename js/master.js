@@ -471,7 +471,11 @@ $(document).ready(function() {
    });
    // Writes input vehicle price expiration to template
    $('#priceGoodUntil').on('input',function(e){
-   document.querySelector('#availableUntilDisplay').innerHTML = this.value;
+   if (document.getElementById('priceGoodUntil').value !== '') {
+     document.querySelector('#availableUntilDisplay').innerHTML = this.value;
+   } else {
+     document.querySelector('#availableUntilDisplay').innerHTML = `mm/dd/yyyy`;
+   }
   });
 
 
