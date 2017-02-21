@@ -532,14 +532,20 @@ $(document).ready(function() {
   // Accessories display works via on click (adds and removes options)
   $(function() {
     $('.accessoryOptionSelect').click(function() {
+
         let tempID = this.value.replace(/-|\&amp;|\&|\.|\s+/g, '');
         if (this.checked === true) {
           // Writes The Accessory Value of Checked item to Page
           console.log(this.value);
-          $('#accessoriesDisplay').append(`<li id="accessory${tempID}" style="color: #ffffff;text-align:left;margin: 0 0 0 30px;">${this.value}</li>`);
+          $('#accessoriesDisplay').append(`<li id="accessory${tempID}" style="color: #ffffff;text-align:left;margin: 0 0 0 30px;font-size:14px;">${this.value}</li>`);
         } else {
           // Removes Selected Accessory Item from page
             $('#accessory' + tempID).remove();
+        }
+        if (document.getElementById('accessoriesDisplay').innerHTML.replace(/-|\&amp;|\&|\.|\s+/g, '') === '') {
+          document.querySelector('#accessoriesDisplayHeading').innerHTML = '';
+        } else {
+          document.querySelector('#accessoriesDisplayHeading').innerHTML = `<h3 style="text-align:left;color:#fafafa;font-size:16px">Accessories:</h3>`;
         }
     });
   });
@@ -562,10 +568,15 @@ $(document).ready(function() {
           // Writes The Accessory Value of Checked item to Page
 
           console.log(tempID);
-          $('#packagesDisplay').append(`<span id="packagesDisplay${tempID}">${this.value}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`);
+          $('#packagesDisplay').append(`<span id="packagesDisplay${tempID}">${this.value}<br></span>`);
         } else {
           // Removes Selected Accessory Item from page
             $('#packagesDisplay' + tempID).remove();
+        }
+        if (document.getElementById('packagesDisplay').innerHTML === '') {
+          document.querySelector('#packagesDisplayHeading').innerHTML = '';
+        } else {
+          document.querySelector('#packagesDisplayHeading').innerHTML = `<strong>With:</strong><br>`;
         }
     });
   });
@@ -573,7 +584,6 @@ $(document).ready(function() {
   document.querySelector('#templateCopy').innerHTML(`
     this is ${templateContent} just a test
     `);
-
 
 
 
