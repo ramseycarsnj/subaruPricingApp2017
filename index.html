@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/date.js" charset="utf-8"></script>
     <script src="js/master.js" charset="utf-8"></script>
 
   </head>
@@ -92,7 +93,7 @@
         <div id="pricePreview">
           <p style="color:#ffffff;padding:20px 50px 0 50px;font-size: 18px;">Hello <span id="customerNameDisplay"></span>,</p>
           <p style="color:#ffffff;padding:0 50px 0 50px;font-size:18px;">Thank you for your interest in the 2017 Subaru <span id="vehicleRef1">No Vehicle Selected</span> from Ramsey Subaru.
-                  Here&#39;s a price for the Subaru <span id="vehicleRef2">No Vehicle Selected</span> (available until <span id="availableUntilDisplay">mm/dd/yy</span>)<br><br>
+                  Here&#39;s a price for the Subaru <span id="vehicleRef2">No Vehicle Selected</span> (available until <span id="availableUntilDisplay"></span>)<br><br>
 
                 </p>
           <table id="pricingTable" style="margin: 0 auto;padding: 20px 0;border: 0;width: 650px;font-size: 18px;">
@@ -188,7 +189,6 @@
       // User format as follows - Name, Title, Extension, Email
       let userCheck = window.location.href;
       let userChecked = userCheck.substr(-6);
-      console.log(userChecked);
       const users = [
                     ['Ramsey Subaru E-Commerce Team','E-Commerce Department','','wecare@ramseysubaru.net'],
                     ['Robert Wood','E-Commerce Manager',' x 5218','rwood@ramseysubaru.net'],
