@@ -1796,6 +1796,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/inc\/stellarCare.png": {
+		"ft": 32768,
+		"iS": 16717,
+		"oA": 0,
+		"oAP": "\/inc\/stellarCare.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/WRX\/Limited\/cbs.png": {
 		"ft": 32768,
 		"iS": 539049,

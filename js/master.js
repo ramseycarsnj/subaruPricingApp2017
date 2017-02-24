@@ -452,6 +452,10 @@ $(document).ready(function() {
     $('.transmissionSelect').click(function(){
       document.querySelector('#transmissionDisplay').innerHTML = `<strong>Transmission:</strong> ${this.value}`;
     });
+    // Transmission selection radio buttons rewrite contents of transmission display h5
+    $('.statusSelect').click(function(){
+      document.querySelector('#statusDisplay').innerHTML = `${this.value}`;
+    });
     // Writes input vehicle finance price to template
     $('#customerName').on('input',function(e){
     document.querySelector('#customerNameDisplay').innerHTML = this.value;
@@ -583,10 +587,7 @@ $(document).ready(function() {
         }
     });
   });
-  let templateContent = document.getElementById('pricePreview');
-  document.querySelector('#templateCopy').innerHTML(`
-    this is ${templateContent} just a test
-    `);
+
 
 
 
