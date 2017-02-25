@@ -30,6 +30,9 @@
           <div class="inputSections">
             <input type="text" name="customerName" placeholder="Customer Name" id="customerName"><label for="customerName"></label>
           </div>
+          <div class="inputSections">
+            <input type="text" name="stock" placeholder="Stock Number" id="stock"><label for="stock"></label>
+          </div>
           <h2>Finance Info</h2>
           <div class="inputSections">
             <input type="text" name="vehicleFinPrice" placeholder="Vehicle Price" id="vehicleFinPrice"><label for="vehiclePrice"></label>
@@ -108,7 +111,9 @@
             <tr>
               <td id="vehicleInfoDisplay" style="width: 350px">
                 <h4 style="margin: 0;padding: 0 0 0 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 900;text-align:left;">2017 Subaru</h4>
-                <h2 id="vehiclePreview" style="margin: 0;padding: 5px 0 5px 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 700;font-size: 20px;text-align:left;">No Vehicle Selected</h2>
+                <h2 id="vehiclePreview" style="margin: 0;padding: 5px 0 0px 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 700;font-size: 20px;text-align:left;">No Vehicle Selected</h2>
+                <span id="stockDisplay" style="text-align:left;color:#ffffff;font-size:12px;line-height:1;
+                margin:0;padding:0 50px 0px 50px;border:0;"></span>
 
                 <h5 style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1.2;color: #fafafa;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;">
                   <span id="packagesDisplayHeading"></span>
@@ -117,7 +122,9 @@
                 <h5 id="transmissionDisplay" style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;"><strong>Transmission:</strong> Automatic</h5>
                 <div id="imgPreview">
                   <img src="inc/fill.png" style="width: 325px;padding: 0;margin: 0;border: 0;">
+
                 </div>
+
               </td>
               <td id="pricingDisplay" style="width: 350px;vertical-align: top;text-align: right;margin: 0;border: 0;padding: 0;">
                 <div>

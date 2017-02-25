@@ -456,10 +456,14 @@ $(document).ready(function() {
     $('.statusSelect').click(function(){
       document.querySelector('#statusDisplay').innerHTML = `${this.value}`;
     });
-    // Writes input vehicle finance price to template
+    // Writes input CUSTOMER NAME to template
     $('#customerName').on('input',function(e){
     document.querySelector('#customerNameDisplay').innerHTML = this.value;
    });
+   // Writes input stock number to template
+   $('#stock').on('input',function(e){
+   document.querySelector('#stockDisplay').innerHTML ='Stock Number: ' + this.value;
+  });
     // Writes input vehicle finance price to template
     $('#vehicleFinPrice').on('input',function(e){
       if (document.getElementById('vehicleFinPrice').value !== '') {
