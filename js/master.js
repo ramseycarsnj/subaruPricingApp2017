@@ -3,7 +3,6 @@ $(document).ready(function() {
 
   const accessoriesArray = [
     'Rear Bumper Applique',
-    'Alloy Wheel Package',
     'Rear Cargo Tray',
     'Luggage Compartment Cover',
     'Cargo Net - Rear',
@@ -124,6 +123,8 @@ $(document).ready(function() {
     'Rear Aero Splash Guards'
   ];
   const packagesArray = [
+    'All Weather Package',
+    'Alloy Wheel Package',
     'Reverse Auto Brake',
     'High Beam Assist',
     'Navigation System',
