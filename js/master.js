@@ -222,7 +222,7 @@ $(document).ready(function() {
       [lbp,'Impreza ' + subaruImprezaTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSportSedan/lbp.png', brochureArray[0]],
       [ism,'Impreza ' + subaruImprezaTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSportSedan/ism.png', brochureArray[0]],
       [ibp,'Impreza ' + subaruImprezaTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSportSedan/ibp.png', brochureArray[0]],
-      [lrp,'Impreza ' + subaruImprezaTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSportSedan/vrp.png', brochureArray[0]]];
+      [lrp,'Impreza ' + subaruImprezaTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSportSedan/lrp.png', brochureArray[0]]];
     const Impreza20iSport5Door = [
       [cbs,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/cbs.png', brochureArray[0]],
       [cgm,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/cgm.png', brochureArray[0]],
@@ -230,12 +230,12 @@ $(document).ready(function() {
       [lbp,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/lbp.png', brochureArray[0]],
       [ism,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/ism.png', brochureArray[0]],
       [ibp,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/ibp.png', brochureArray[0]],
-      [lrp,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/vrp.png', brochureArray[0]]];
+      [lrp,'Impreza ' + subaruImprezaTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iSport5door/lrp.png', brochureArray[0]]];
     const Impreza20iLimitedSedan = [
       [cbs,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/cbs.png', brochureArray[0]],
       [cgm,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/cgm.png', brochureArray[0]],
       [cwp,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/cwp.png', brochureArray[0]],
-      [lbp,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/lbp.png', brochureArray[0]],
+      [lbm,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/lbm.png', brochureArray[0]],
       [ism,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/ism.png', brochureArray[0]],
       [ibp,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/ibp.png', brochureArray[0]],
       [vrp,'Impreza ' + subaruImprezaTrim[6],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimitedSedan/vrp.png', brochureArray[0]]];
@@ -243,7 +243,7 @@ $(document).ready(function() {
       [cbs,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/cbs.png', brochureArray[0]],
       [cgm,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/cgm.png', brochureArray[0]],
       [cwp,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/cwp.png', brochureArray[0]],
-      [lbp,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/lbp.png', brochureArray[0]],
+      [lbm,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/lbm.png', brochureArray[0]],
       [ism,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/ism.png', brochureArray[0]],
       [ibp,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/ibp.png', brochureArray[0]],
       [vrp,'Impreza ' + subaruImprezaTrim[7],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Impreza/20iLimited5door/vrp.png', brochureArray[0]]];
