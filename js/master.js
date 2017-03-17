@@ -361,6 +361,7 @@ $(document).ready(function() {
       [dgm,'Forester ' + subaruForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/dgm.png', brochureArray[3]],
       [ism,'Forester ' + subaruForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/ism.png', brochureArray[3]],
       [qbp,'Forester ' + subaruForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/qbp.png', brochureArray[3]],
+      [sbm,'Forester ' + subaruForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/sbm.png', brochureArray[3]],
       [vrp,'Forester ' + subaruForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/vrp.png', brochureArray[3]]];
     const Forester20XTTouring = [
       [cbs,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/cbs.png', brochureArray[3]],
@@ -369,13 +370,14 @@ $(document).ready(function() {
       [ism,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/ism.png', brochureArray[3]],
       [jgm,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/jgm.png', brochureArray[3]],
       [qbp,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/qbp.png', brochureArray[3]],
+      [sbm,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/sbm.png', brochureArray[3]],
       [vrp,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/vrp.png', brochureArray[3]]];
 
     const subaruOutbackTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Touring','3.6R Limited','3.6R Touring'];
     const Outback25i = [
       [cbs,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/cbs.png', brochureArray[4]],
-      [cgm,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/cwp.png', brochureArray[4]],
-      [cwp,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/lbp.png', brochureArray[4]],
+      [cgm,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/cgm.png', brochureArray[4]],
+      [cwp,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/cwp.png', brochureArray[4]],
       [ism,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/ism.png', brochureArray[4]],
       [lbp,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/lbp.png', brochureArray[4]],
       [tbm,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/tbm.png', brochureArray[4]],
@@ -384,8 +386,8 @@ $(document).ready(function() {
       [wgm,'Outback ' + subaruOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25i/wgm.png', brochureArray[4]]];
     const Outback25iPremium = [
       [cbs,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/cbs.png', brochureArray[4]],
-      [cgm,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/cwp.png', brochureArray[4]],
-      [cwp,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/lbp.png', brochureArray[4]],
+      [cgm,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/cgm.png', brochureArray[4]],
+      [cwp,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/cwp.png', brochureArray[4]],
       [ism,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/ism.png', brochureArray[4]],
       [lbp,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/lbp.png', brochureArray[4]],
       [tbm,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/tbm.png', brochureArray[4]],
@@ -394,8 +396,8 @@ $(document).ready(function() {
       [wgm,'Outback ' + subaruOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iPremium/wgm.png', brochureArray[4]]];
     const Outback25iLimited = [
       [cbs,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/cbs.png', brochureArray[4]],
-      [cgm,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/cwp.png', brochureArray[4]],
-      [cwp,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/lbp.png', brochureArray[4]],
+      [cgm,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/cgm.png', brochureArray[4]],
+      [cwp,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/cwp.png', brochureArray[4]],
       [ism,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/ism.png', brochureArray[4]],
       [lbp,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/lbp.png', brochureArray[4]],
       [tbm,'Outback ' + subaruOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iLimited/tbm.png', brochureArray[4]],
@@ -409,8 +411,8 @@ $(document).ready(function() {
       [wgm,'Outback ' + subaruOutbackTrim[3], 'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/25iTouring/wgm.png', brochureArray[4]]];
     const Outback36RLimited = [
       [cbs,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/cbs.png', brochureArray[4]],
-      [cgm,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/cwp.png', brochureArray[4]],
-      [cwp,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/lbp.png', brochureArray[4]],
+      [cgm,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/cgm.png', brochureArray[4]],
+      [cwp,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/cwp.png', brochureArray[4]],
       [ism,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/ism.png', brochureArray[4]],
       [lbp,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/lbp.png', brochureArray[4]],
       [tbm,'Outback ' + subaruOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Outback/36rLimited/tbm.png', brochureArray[4]],
