@@ -368,7 +368,6 @@ $(document).ready(function() {
       [cwp,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/cwp.png', brochureArray[3]],
       [dgm,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/dgm.png', brochureArray[3]],
       [ism,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/ism.png', brochureArray[3]],
-      [jgm,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/jgm.png', brochureArray[3]],
       [qbp,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/qbp.png', brochureArray[3]],
       [sbm,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/sbm.png', brochureArray[3]],
       [vrp,'Forester ' + subaruForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/vrp.png', brochureArray[3]]];
