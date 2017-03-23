@@ -319,7 +319,7 @@ $(document).ready(function() {
       [dk,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/dk.png', brochureArray[2]],
       [hb,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/hb.png', brochureArray[2]],
       [ism,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/ism.png', brochureArray[2]],
-      [lbp,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/lbp.png', brochureArray[2]],
+      [qbp,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/qbp.png', brochureArray[2]],
       [vrp,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/vrp.png', brochureArray[2]]];
 
     const subaruForesterTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Touring','2.0XT Premium','2.0XT Touring'];
