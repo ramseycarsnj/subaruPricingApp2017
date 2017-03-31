@@ -310,7 +310,7 @@ $(document).ready(function() {
       [dk,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/dk.png', brochureArray[2]],
       [hb,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/hb.png', brochureArray[2]],
       [ism,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/ism.png', brochureArray[2]],
-      [lbp,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/lbp.png', brochureArray[2]],
+      [qbp,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/lbp.png', brochureArray[2]],
       [vrp,'Crosstrek ' + subaruCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iPremium/vrp.png', brochureArray[2]]];
     const Crosstrek20iLimited = [
       [cbs,'Crosstrek ' + subaruCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Crosstrek/20iLimited/cbs.png', brochureArray[2]],
