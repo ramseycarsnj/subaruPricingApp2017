@@ -209,7 +209,8 @@
                     ['Robert Wood','E-Commerce Manager',' x 5218','rwood@ramseysubaru.net'],
                     ['Bailey Kasbarian','E-Commerce Associate',' x 5230','bkasbarian@ramseysubaru.net'],
                     ['Manny Justafort','E-Commerce Associate',' x 5224','ejustafort@ramseysubaru.net'],
-                    ['Megan Previdi','E-Commerce Associate',' x 5223','mprevidi@ramseysubaru.net']
+                    ['Megan Previdi','E-Commerce Associate',' x 5223','mprevidi@ramseysubaru.net'],
+                    ['Nick Andrasko','E-Commerce Associate',' x 5235','nandrasko@ramseysubaru.net']
                     ];
       let signature;
       if (userChecked === 'rwood/') {
@@ -243,7 +244,15 @@
         (201)327-0070${users[4][2]}<br>
         ${users[4][3]}
         `;
-      } else {
+      } else if (userChecked === 'nandr/') {
+        signature = `
+        ${users[5][0]}<br>
+        ${users[5][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[5][2]}<br>
+        ${users[5][3]}
+        `;
+      }  else {
         signature = `
         ${users[0][0]}<br>
         ${users[0][1]}<br>
