@@ -621,12 +621,12 @@ let subaruYear = '2017 Subaru ';
             let selectedColor = this.dataset.image;
             console.log(this.id);
             if (selectedVehicle.includes("NewWRX")) {
-              subaruYear = 'New 2018 Subaru';
+              subaruYear = 'New 2018 Subaru ';
               selectedTrim = selectedTrim.replace("New", "");
 
               console.log('Working: ' + selectedTrim);
             } else if (selectedVehicle.includes("NewForester")) {
-              subaruYear = 'New 2018 Subaru';
+              subaruYear = 'New 2018 Subaru ';
               selectedTrim = selectedTrim.replace("New", "");
 
               console.log('Working: ' + selectedTrim);
