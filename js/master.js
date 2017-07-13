@@ -486,53 +486,53 @@ let subaruYear = '2017 Subaru ';
 
       const subaruNewForesterTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Touring','2.0XT Premium','2.0XT Touring'];
       const NewForester25i = [
-        [cbs,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/ism.png', brochureArray[3]],
-        [jgm,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/jgm.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/qbp.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25i/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/ism.png', brochureArray[3]],
+        [jgm,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/jgm.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/qbp.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25i/vrp.png', brochureArray[3]]];
       const NewForester25iPremium = [
-        [cbs,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/ism.png', brochureArray[3]],
-        [jgm,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/jgm.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/qbp.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iPremium/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/ism.png', brochureArray[3]],
+        [jgm,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/jgm.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/qbp.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iPremium/vrp.png', brochureArray[3]]];
       const NewForester25iLimited = [
-        [cbs,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/ism.png', brochureArray[3]],
-        [jgm,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/jgm.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/qbp.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iLimited/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/ism.png', brochureArray[3]],
+        [jgm,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/jgm.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/qbp.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iLimited/vrp.png', brochureArray[3]]];
       const NewForester25iTouring = [
-        [cbs,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/ism.png', brochureArray[3]],
-        [jgm,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/jgm.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/qbp.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/25iTouring/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/ism.png', brochureArray[3]],
+        [jgm,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/jgm.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/qbp.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/25iTouring/vrp.png', brochureArray[3]]];
       const NewForester20XTPremium = [
-        [cbs,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/ism.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/qbp.png', brochureArray[3]],
-        [sbm,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/sbm.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTPremium/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/ism.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/qbp.png', brochureArray[3]],
+        [sbm,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/sbm.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTPremium/vrp.png', brochureArray[3]]];
       const NewForester20XTTouring = [
-        [cbs,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/cbs.png', brochureArray[3]],
-        [cwp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/cwp.png', brochureArray[3]],
-        [dgm,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/dgm.png', brochureArray[3]],
-        [ism,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/ism.png', brochureArray[3]],
-        [qbp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/qbp.png', brochureArray[3]],
-        [sbm,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/sbm.png', brochureArray[3]],
-        [vrp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/Forester/20XTTouring/vrp.png', brochureArray[3]]];
+        [cbs,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/cbs.png', brochureArray[3]],
+        [cwp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/cwp.png', brochureArray[3]],
+        [dgm,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/dgm.png', brochureArray[3]],
+        [ism,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/ism.png', brochureArray[3]],
+        [qbp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/qbp.png', brochureArray[3]],
+        [sbm,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/sbm.png', brochureArray[3]],
+        [vrp,'Forester ' + subaruNewForesterTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Forester/20XTTouring/vrp.png', brochureArray[3]]];
       const subaruNewWRXTrim = ['Base','Premium','Limited','STI','STI Limited'];
       const NewWRXBase = [
         [cbs,'WRX ' + subaruNewWRXTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/WRX/cbs.png', brochureArray[5]],
@@ -623,7 +623,7 @@ let subaruYear = '2017 Subaru ';
             if (selectedVehicle.includes("NewWRX")) {
               subaruYear = 'New 2018 Subaru';
               selectedTrim = selectedTrim.replace("New", "");
-              
+
               console.log('Working: ' + selectedTrim);
             } else if (selectedVehicle.includes("NewForester")) {
               subaruYear = 'New 2018 Subaru';
