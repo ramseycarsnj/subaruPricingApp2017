@@ -151,10 +151,13 @@ $(document).ready(function() {
     'http://www.ramseysubaru.net/showroom/2017/Subaru/Forester/SUV.htm',
     'http://www.ramseysubaru.net/showroom/2017/Subaru/Outback/SUV.htm',
     'http://www.ramseysubaru.net/showroom/2017/Subaru/WRX/Sedan.htm',
-    'http://www.ramseysubaru.net/showroom/2017/Subaru/BRZ/Coupe.htm'
+    'http://www.ramseysubaru.net/showroom/2017/Subaru/BRZ/Coupe.htm',
+    'http://www.ramseysubaru.net/showroom/2018/Subaru/Crosstrek/SUV.htm',
+    'http://www.ramseysubaru.net/showroom/2018/Subaru/Outback/SUV.htm',
+    'http://www.ramseysubaru.net/showroom/2018/Subaru/Legacy/Sedan.htm'
   ];
 
-let subaruYear = '2017 Subaru ';
+var subaruYear = '2017 Subaru ';
     // List of Subaru Colors Available
     const cwp = 'Crystal White Pearl';
     const ism = 'Ice Silver Metallic';
@@ -176,9 +179,15 @@ let subaruYear = '2017 Subaru ';
     const dk = 'Desert Khaki';
     const jgm = 'Jasmine Green Metallic';
     const wgm = 'Wilderness Green Metallic';
+    const dbp = 'Dark Blue Pearl';
+    const mgm = 'Magnetite Gray Metallic';
+    const crp = 'Crimson Red Pearl';
+    const cgk = 'Cool Gray Khaki';
+    const so = 'Sunshine Orange';
+
 
     // Vehicles Array -------------------------------------------------------------------------
-    const subaruVehicleArray = ['Impreza','Legacy','Crosstrek','Forester','Outback','WRX','BRZ', 'NewForester', 'NewWRX '];
+    const subaruVehicleArray = ['Impreza','Legacy','Crosstrek','Forester','Outback','WRX','BRZ', 'NewForester', 'NewWRX', 'NewCrosstrek', 'NewLegacy', 'NewOutback'];
 
     // Trim Arrays ----------------------------------------------------------------------------
 
@@ -574,6 +583,159 @@ let subaruYear = '2017 Subaru ';
         [lbp,'WRX ' + subaruNewWRXTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/STILimited/lbp.png', brochureArray[5]],
         [pr,'WRX ' + subaruNewWRXTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/STILimited/pr.png', brochureArray[5]],
         [wbp,'WRX ' + subaruNewWRXTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/STILimited/wbp.png', brochureArray[5]]];
+
+        const subaruNewCrosstrekTrim = ['20i','20iPremium','20iLimited'];
+
+          const NewCrosstrek20i = [
+            [cbs,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cbs.png', brochureArray[7]],
+            [cgk,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cgk.png', brochureArray[7]],
+            [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cwp.png', brochureArray[7]],
+            [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/dgm.png', brochureArray[7]],
+            [ism,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/ism.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/dbp.png', brochureArray[7]],
+            [so,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/so.png', brochureArray[7]],
+            [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/vrp.png', brochureArray[7]]];
+
+          const NewCrosstrek20iPremium = [
+            [cbs,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/cbs.png', brochureArray[7]],
+            [cgk,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/cgk.png', brochureArray[7]],
+            [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/cwp.png', brochureArray[7]],
+            [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/dgm.png', brochureArray[7]],
+            [ism,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/ism.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/dbp.png', brochureArray[7]],
+            [so,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/so.png', brochureArray[7]],
+            [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/vrp.png', brochureArray[7]]];
+
+          const NewCrosstrek20iLimited = [
+            [cbs,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/cbs.png', brochureArray[7]],
+            [cgk,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/cgk.png', brochureArray[7]],
+            [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/cwp.png', brochureArray[7]],
+            [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/dgm.png', brochureArray[7]],
+            [ism,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/ism.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/dbp.png', brochureArray[7]],
+            [so,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/so.png', brochureArray[7]],
+            [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/vrp.png', brochureArray[7]]];
+
+
+    const subaruNewOutbackTrim = ['25i','25iPremium','25iLimited','25iTouring','36rLimited','36rTouring'];
+
+      const NewOutback25i = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/tm.png', brochureArray[8]]];
+
+      const NewOutback25iPremium = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/tm.png', brochureArray[8]]];
+
+      const NewOutback25iLimited = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/tm.png', brochureArray[8]]];
+
+      const NewOutback25iTouring = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tm.png', brochureArray[8]]];
+
+      const NewOutback36rLimited = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/tm.png', brochureArray[8]]];
+
+      const NewOutback36rTouring = [
+        [cbs,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cbs.png', brochureArray[8]],
+        [crp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/crp.png', brochureArray[8]],
+        [cwp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cwp.png', brochureArray[8]],
+        [dbp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/dbp.png', brochureArray[8]],
+        [ism,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/ism.png', brochureArray[8]],
+        [jgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/jgm.png', brochureArray[8]],
+        [mgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/mgm.png', brochureArray[8]],
+        [tbm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/tbm.png', brochureArray[8]],
+        [tm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/tm.png', brochureArray[8]]];
+
+
+    const subaruNewLegacyTrim = ['25i','25iPremium','25iLimited','25iSport','36rLimited'];
+
+      const NewLegacy25i = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/cbs.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/tbm.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/cwp.png', brochureArray[9]],
+        [tm,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/tm.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/crp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/dbp.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/mgm.png', brochureArray[9]]];
+
+      const NewLegacy25iPremium = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/cbs.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/tbm.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/cwp.png', brochureArray[9]],
+        [tm,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/tm.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/crp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/dbp.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iPremium/mgm.png', brochureArray[9]]];
+
+      const NewLegacy25iLimited = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cbs.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tbm.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cwp.png', brochureArray[9]],
+        [tm,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tm.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/crp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/dbp.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/mgm.png', brochureArray[9]]];
+
+      const NewLegacy25iSport = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/cbs.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/crp.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/cwp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/dbp.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/tbm.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/mgm.png', brochureArray[9]]];
+
+      const NewLegacy25iLimited = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cbs.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tbm.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cwp.png', brochureArray[9]],
+        [tm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tm.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/crp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/dbp.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/mgm.png', brochureArray[9]]];
 
     // Vehicle select functionality. Allows users to navigate through vehicle menu. Model -> Trim -> Color.
     const fullReset = function() {
