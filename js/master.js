@@ -612,7 +612,7 @@ var subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/dbp.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/vrp.png', brochureArray[7]]];
 
@@ -727,15 +727,15 @@ var subaruYear = '2017 Subaru ';
         [tbm,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/tbm.png', brochureArray[9]],
         [mgm,'Legacy ' + subaruNewLegacyTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iSport/mgm.png', brochureArray[9]]];
 
-      const NewLegacy25iLimited = [
-        [cbs,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cbs.png', brochureArray[9]],
-        [ism,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/ism.png', brochureArray[9]],
-        [tbm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tbm.png', brochureArray[9]],
-        [cwp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/cwp.png', brochureArray[9]],
-        [tm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/tm.png', brochureArray[9]],
-        [crp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/crp.png', brochureArray[9]],
-        [dbp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/dbp.png', brochureArray[9]],
-        [mgm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25iLimited/mgm.png', brochureArray[9]]];
+      const NewLegacy36rLimited = [
+        [cbs,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/cbs.png', brochureArray[9]],
+        [ism,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/ism.png', brochureArray[9]],
+        [tbm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/tbm.png', brochureArray[9]],
+        [cwp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/cwp.png', brochureArray[9]],
+        [tm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/tm.png', brochureArray[9]],
+        [crp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/crp.png', brochureArray[9]],
+        [dbp,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/dbp.png', brochureArray[9]],
+        [mgm,'Legacy ' + subaruNewLegacyTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/36rLimited/mgm.png', brochureArray[9]]];
 
     // Vehicle select functionality. Allows users to navigate through vehicle menu. Model -> Trim -> Color.
     const fullReset = function() {
