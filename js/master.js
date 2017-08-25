@@ -592,7 +592,7 @@ let subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/qbp.png', brochureArray[7]],
+            [qbp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/vrp.png', brochureArray[7]]];
 
@@ -602,7 +602,7 @@ let subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/qbp.png', brochureArray[7]],
+            [qbp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/vrp.png', brochureArray[7]]];
 
@@ -612,7 +612,7 @@ let subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/qbp.png', brochureArray[7]],
+            [qbp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/vrp.png', brochureArray[7]]];
 
