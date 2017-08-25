@@ -157,7 +157,7 @@ $(document).ready(function() {
     'http://www.ramseysubaru.net/showroom/2018/Subaru/Legacy/Sedan.htm'
   ];
 
-var subaruYear = '2017 Subaru ';
+let subaruYear = '2017 Subaru ';
     // List of Subaru Colors Available
     const cwp = 'Crystal White Pearl';
     const ism = 'Ice Silver Metallic';
@@ -584,7 +584,7 @@ var subaruYear = '2017 Subaru ';
         [pr,'WRX ' + subaruNewWRXTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/STILimited/pr.png', brochureArray[5]],
         [wbp,'WRX ' + subaruNewWRXTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/WRX/STILimited/wbp.png', brochureArray[5]]];
 
-        const subaruNewCrosstrekTrim = ['20i','20iPremium','20iLimited'];
+        const subaruNewCrosstrekTrim = ['2.0i','2.0i Premium','2.0i Limited'];
 
           const NewCrosstrek20i = [
             [cbs,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cbs.png', brochureArray[7]],
@@ -592,7 +592,7 @@ var subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/dbp.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20i/vrp.png', brochureArray[7]]];
 
@@ -602,7 +602,7 @@ var subaruYear = '2017 Subaru ';
             [cwp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/cwp.png', brochureArray[7]],
             [dgm,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/dgm.png', brochureArray[7]],
             [ism,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/ism.png', brochureArray[7]],
-            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/dbp.png', brochureArray[7]],
+            [dbp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/qbp.png', brochureArray[7]],
             [so,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/so.png', brochureArray[7]],
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iPremium/vrp.png', brochureArray[7]]];
 
@@ -617,7 +617,7 @@ var subaruYear = '2017 Subaru ';
             [vrp,'Crosstrek ' + subaruNewCrosstrekTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Crosstrek/20iLimited/vrp.png', brochureArray[7]]];
 
 
-    const subaruNewOutbackTrim = ['25i','25iPremium','25iLimited','25iTouring','36rLimited','36rTouring'];
+    const subaruNewOutbackTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Touring','3.6r Limited','3.6r Touring'];
 
       const NewOutback25i = [
         [cbs,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/cbs.png', brochureArray[8]],
@@ -686,7 +686,7 @@ var subaruYear = '2017 Subaru ';
         [tm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/tm.png', brochureArray[8]]];
 
 
-    const subaruNewLegacyTrim = ['25i','25iPremium','25iLimited','25iSport','36rLimited'];
+    const subaruNewLegacyTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Sport','3.6r Limited'];
 
       const NewLegacy25i = [
         [cbs,'Legacy ' + subaruNewLegacyTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Legacy/25i/cbs.png', brochureArray[9]],
@@ -782,17 +782,24 @@ var subaruYear = '2017 Subaru ';
             e.preventDefault();
             let selectedColor = this.dataset.image;
             console.log(this.id);
-            if (selectedVehicle.includes("NewWRX")) {
+            if (selectedVehicle.includes("NewWRX") || selectedVehicle.includes("NewForester") || selectedVehicle.includes("NewCrosstrek") || selectedVehicle.includes("NewLegacy") || selectedVehicle.includes("NewOutback")) {
               subaruYear = 'New 2018 Subaru ';
               selectedTrim = selectedTrim.replace("New", "");
 
               console.log('Working: ' + selectedTrim);
-            } else if (selectedVehicle.includes("NewForester")) {
-              subaruYear = 'New 2018 Subaru ';
-              selectedTrim = selectedTrim.replace("New", "");
-
-              console.log('Working: ' + selectedTrim);
-            } else {
+            }
+            // else if (selectedVehicle.includes("NewForester")) {
+            //   subaruYear = 'New 2018 Subaru ';
+            //   selectedTrim = selectedTrim.replace("New", "");
+            //
+            //   console.log('Working: ' + selectedTrim);
+            // } } else if (selectedVehicle.includes("NewForester")) {
+            //   subaruYear = 'New 2018 Subaru ';
+            //   selectedTrim = selectedTrim.replace("New", "");
+            //
+            //   console.log('Working: ' + selectedTrim);
+            // }
+            else {
               subaruYear = '2017 Subaru';
             }
             document.querySelector('#imgPreview').innerHTML = `<img src="${selectedColor}" style="width: 325px;padding: 0;margin: 0;border: 0;">`
