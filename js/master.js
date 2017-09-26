@@ -786,7 +786,7 @@ let subaruYear = '2017 Subaru ';
           [lbp,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport4Dr/lbp.png', brochureArray[9]],
           [mgm,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport4Dr/mgm.png', brochureArray[9]]];
         const NewImpreza20iSport5D = [
-r          [cbs,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport5Dr/cbs.png', brochureArray[9]],
+          [cbs,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport5Dr/cbs.png', brochureArray[9]],
           [ism,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport5Dr/ism.png', brochureArray[9]],
           [crp,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport5Dr/crp.png', brochureArray[9]],
           [cwp,'Impreza ' + subaruNewImprezaTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Impreza/20iSport5Dr/cwp.png', brochureArray[9]],
