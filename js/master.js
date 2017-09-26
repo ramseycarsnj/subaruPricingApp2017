@@ -860,7 +860,7 @@ let subaruYear = '2017 Subaru ';
             e.preventDefault();
             let selectedColor = this.dataset.image;
             console.log(this.id);
-            if (selectedVehicle.includes("NewWRX") || selectedVehicle.includes("NewForester") || selectedVehicle.includes("NewCrosstrek") || selectedVehicle.includes("NewLegacy") || selectedVehicle.includes("NewOutback")) {
+            if (selectedVehicle.includes("NewWRX") || selectedVehicle.includes("NewForester") || selectedVehicle.includes("NewCrosstrek") || selectedVehicle.includes("NewLegacy") || selectedVehicle.includes("NewOutback")|| selectedVehicle.includes("NewImpreza")) {
               subaruYear = 'New 2018 Subaru ';
               selectedTrim = selectedTrim.replace("New", "");
 
