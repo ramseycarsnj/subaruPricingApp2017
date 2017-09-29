@@ -125,6 +125,7 @@ $(document).ready(function() {
   const packagesArray = [
     'All Weather Package',
     'Alloy Wheel Package',
+    '<b>Blacked Out Edition</b>',
     'Reverse Auto Brake',
     'High Beam Assist',
     'Navigation System',
