@@ -676,14 +676,9 @@ let subaruYear = '2017 Subaru ';
 
       const NewOutback36rTouring = [
         [cbs,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cbs.png', brochureArray[8]],
-        [crp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/crp.png', brochureArray[8]],
         [cwp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/dbp.png', brochureArray[8]],
-        [ism,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/ism.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/jgm.png', brochureArray[8]],
-        [mgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/mgm.png', brochureArray[8]],
-        [tbm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/tbm.png', brochureArray[8]],
-        [tm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/tm.png', brochureArray[8]]];
+        [jgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/jgm.png', brochureArray[8]]];
 
 
     const subaruNewLegacyTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Sport','3.6r Limited'];
@@ -863,20 +858,8 @@ let subaruYear = '2017 Subaru ';
             if (selectedVehicle.includes("NewWRX") || selectedVehicle.includes("NewForester") || selectedVehicle.includes("NewCrosstrek") || selectedVehicle.includes("NewLegacy") || selectedVehicle.includes("NewOutback")|| selectedVehicle.includes("NewImpreza")) {
               subaruYear = 'New 2018 Subaru ';
               selectedTrim = selectedTrim.replace("New", "");
-
               console.log('Working: ' + selectedTrim);
             }
-            // else if (selectedVehicle.includes("NewForester")) {
-            //   subaruYear = 'New 2018 Subaru ';
-            //   selectedTrim = selectedTrim.replace("New", "");
-            //
-            //   console.log('Working: ' + selectedTrim);
-            // } } else if (selectedVehicle.includes("NewForester")) {
-            //   subaruYear = 'New 2018 Subaru ';
-            //   selectedTrim = selectedTrim.replace("New", "");
-            //
-            //   console.log('Working: ' + selectedTrim);
-            // }
             else {
               subaruYear = '2017 Subaru';
             }
@@ -884,7 +867,7 @@ let subaruYear = '2017 Subaru ';
             document.querySelector('#vehiclePreview').innerHTML = selectedTrim;
             console.log('Trim: ' + selectedTrim);
 
-            document.querySelector('#vehicleRef1').innerHTML = subaruYear + selectedTrim;
+            document.querySelector('#vehicleRef1').innerHTML = subaruYear + ' ' + selectedTrim;
 
 
             document.querySelector('#theYear').innerHTML = subaruYear;
