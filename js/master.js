@@ -627,6 +627,7 @@ let subaruYear = '2017 Subaru ';
         [dbp,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/ism.png', brochureArray[8]],
         [jgm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/jgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/wgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[0],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25i/tm.png', brochureArray[8]]];
@@ -637,7 +638,7 @@ let subaruYear = '2017 Subaru ';
         [cwp,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/ism.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/jgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/wgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[1],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iPremium/tm.png', brochureArray[8]]];
@@ -648,7 +649,7 @@ let subaruYear = '2017 Subaru ';
         [cwp,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/ism.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/jgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/wgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[2],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iLimited/tm.png', brochureArray[8]]];
@@ -659,7 +660,7 @@ let subaruYear = '2017 Subaru ';
         [cwp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/ism.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/jgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/wgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tm.png', brochureArray[8]]];
@@ -670,7 +671,7 @@ let subaruYear = '2017 Subaru ';
         [cwp,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/ism.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/jgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/wgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[4],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rLimited/tm.png', brochureArray[8]]];
@@ -679,7 +680,7 @@ let subaruYear = '2017 Subaru ';
         [cbs,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cbs.png', brochureArray[8]],
         [cwp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/dbp.png', brochureArray[8]],
-        [jgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/jgm.png', brochureArray[8]]];
+        [wgm,'Outback ' + subaruNewOutbackTrim[5],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/36rTouring/wgm.png', brochureArray[8]]];
 
 
     const subaruNewLegacyTrim = ['2.5i','2.5i Premium','2.5i Limited','2.5i Sport','3.6r Limited'];
