@@ -660,7 +660,7 @@ let subaruYear = '2017 Subaru ';
         [cwp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/cwp.png', brochureArray[8]],
         [dbp,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/dbp.png', brochureArray[8]],
         [ism,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/ism.png', brochureArray[8]],
-        [wgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/wgm.png', brochureArray[8]],
+        [wgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/jgm.png', brochureArray[8]],
         [mgm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/mgm.png', brochureArray[8]],
         [tbm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tbm.png', brochureArray[8]],
         [tm,'Outback ' + subaruNewOutbackTrim[3],'http://ramseycarsnj.github.io/subaruPricingApp2017/inc/2018/Outback/25iTouring/tm.png', brochureArray[8]]];
@@ -873,7 +873,7 @@ let subaruYear = '2017 Subaru ';
 
 
             document.querySelector('#theYear').innerHTML = subaruYear;
-            document.querySelector('#vehicleRef2').innerHTML = selectedVehicle;
+            document.querySelector('#vehicleRef2').innerHTML = selectedTrim;
             console.log('Vehicle: ' + selectedVehicle);
             document.querySelector('#brochureLink').href = this.dataset.brochure;
 
